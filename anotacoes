@@ -2,3 +2,6 @@ CONFIGURANDO ESTRUTURA
 . yarn init - y
 . yarn add express
 . Iniciando a aplicação: node src/server.js
+
+NODEMON & SUCRASE
+. Utilizar nova sintaxe de import: yarn add sucrase nodemon -D
