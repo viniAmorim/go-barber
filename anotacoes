@@ -1,0 +1,4 @@
+CONFIGURANDO ESTRUTURA
+. yarn init - y
+. yarn add express
+. Iniciando a aplicação: node src/server.js
