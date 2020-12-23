@@ -44,3 +44,7 @@ CADASTRO DE USUÁRIO
 
 GERANDO HASH DA SENHA
 . yarn add bcryptjs
+
+SESSION CONTROLLER
+. yarn add jsonwebtoken
+. md5 online
