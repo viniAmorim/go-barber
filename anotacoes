@@ -10,3 +10,18 @@ DOCKER
 . docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres:11
 . docker start database
 . docker logs database
+
+ESLINT, PRETTIER & EDITORCONFIG
+. yarn add eslint -D
+    - yarn eslint --init
+        - To check syntax, find problems, and enforce code style
+        - JavaScript modules(import/export)
+        - None of those
+        - Node
+        - Use a popular style guide
+        - Airbnb
+        - JavaScript
+        - Y
+        - Apagar package.lock.json e rodar yarn
+. yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+. yarn eslint --fix src --ext .js
