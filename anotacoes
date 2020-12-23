@@ -25,3 +25,6 @@ ESLINT, PRETTIER & EDITORCONFIG
         - Apagar package.lock.json e rodar yarn
 . yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 . yarn eslint --fix src --ext .js
+
+CONFIGURANDO SEQUELIZE
+. yarn add sequelize
