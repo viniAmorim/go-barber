@@ -53,3 +53,6 @@ MIDDLEWARE DE AUTENTICAÇÃO
 . promisify: pega uma função de callback e transforma no padrão async await
 
 UPDATE DO USUÁRIO
+
+VALIDANDO DADOS DE ENTRADA
+. yarn add yup -> schema validation
