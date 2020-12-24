@@ -56,3 +56,6 @@ UPDATE DO USUÁRIO
 
 VALIDANDO DADOS DE ENTRADA
 . yarn add yup -> schema validation
+
+CONFIGURANDO MULTER
+. yarn add multer
