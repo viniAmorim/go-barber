@@ -69,3 +69,7 @@ AVATAR DO USUÁRIO
 MIGRATION E MODEL DE AGENDAMENTO
 . yarn sequelize migration:create --name=create-appointments
 . yarn sequelize db:migrate
+
+AGENDAMENTO DE SERVIÇO
+
+
