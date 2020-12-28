@@ -59,3 +59,9 @@ VALIDANDO DADOS DE ENTRADA
 
 CONFIGURANDO MULTER
 . yarn add multer
+
+AVATAR DO USUÁRIO
+. yarn sequelize migration:create --name=create-files
+. yarn sequelize db:migrate
+. yarn sequelize migration:create --name=add-avatar-field-to-users
+. yarn sequelize db:migrate
