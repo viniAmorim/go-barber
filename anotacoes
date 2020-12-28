@@ -81,4 +81,8 @@ APLICANDO PAGINAÇÃO
 . Insomnia >> Query >> page: 1
 
 LISTANDO AGENDA DO PRESTADOR
-.
+
+CONFIGURANDO MONGO
+. docker run --name mongobarber -p 27017:27017 -d -t mongo
+. yarn add mongoose
+. docker logs [ID_CONTAINER]
