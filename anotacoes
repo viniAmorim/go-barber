@@ -65,3 +65,7 @@ AVATAR DO USUÁRIO
 . yarn sequelize db:migrate
 . yarn sequelize migration:create --name=add-avatar-field-to-users
 . yarn sequelize db:migrate
+
+MIGRATION E MODEL DE AGENDAMENTO
+. yarn sequelize migration:create --name=create-appointments
+. yarn sequelize db:migrate
