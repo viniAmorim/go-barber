@@ -86,3 +86,6 @@ CONFIGURANDO MONGO
 . docker run --name mongobarber -p 27017:27017 -d -t mongo
 . yarn add mongoose
 . docker logs [ID_CONTAINER]
+
+NOTIFICANDO NOVOS AGENDAMENTOS
+. mongodb compass comunity
