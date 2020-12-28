@@ -76,3 +76,6 @@ VALIDAÇÕES DE AGENDAMENTO
 . yarn add date-fns@next
 
 LISTANDO AGENDAMENTOS DO USUÁRIO
+
+APLICANDO PAGINAÇÃO
+. Insomnia >> Query >> page: 1
