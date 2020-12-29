@@ -54,9 +54,18 @@ class AppointmentController {
             where: { id: provider_id, provider: true },
         });
 
+        /**
+         * Check if provider_id is the same of the current user Id
+         */
+        if (provider_id === req.userId) {
+            return res.status(401).json({
+                error: 'You cant schedule an appointment for yourself',
+            });
+        }
+
         if (!checkIsProvider) {
             return res.status(401).json({
-                error: 'Yu can only create appointments with providers',
+                error: 'You can only create appointments with providers',
             });
         }
 
