@@ -100,3 +100,5 @@ CONFIGURANDO NODEMAILER
 . yarn add nodemailer
 . Amazon SES, Mailgun, Spartpost, Mandril, Mailtrap(ambiente de desenvolvimento)
 
+CONFIGURANDO TEMPLATE DE EMAIL
+. yarn add express-handlebars nodemailer-express-handlebars
