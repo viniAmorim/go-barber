@@ -96,3 +96,7 @@ MARCAR NOTIFICAÇÕES COMO LIDAS
 
 CANCELAMENTO DE AGENDAMENTO
 
+CONFIGURANDO NODEMAILER
+. yarn add nodemailer
+. Amazon SES, Mailgun, Spartpost, Mandril, Mailtrap(ambiente de desenvolvimento)
+
