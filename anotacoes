@@ -121,3 +121,5 @@ TRATAMENTO DE EXCEÇÕES
 . yarn add express-async-errors
 . yarn add youch
 
+VARIÁVEIS DE AMBIENTE
+. yarn add dotenv
