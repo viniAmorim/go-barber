@@ -109,3 +109,6 @@ CONFIGURANDO FILA COM REDIS
 . node src/queue.js -> Rodar a fila
 
 MONITORANDO FALHAS NA FILA
+
+LISTANDO HORÁRIOS DISPONÍVEIS
+. new Date().getTime()
