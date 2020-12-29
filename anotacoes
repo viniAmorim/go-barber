@@ -107,3 +107,5 @@ CONFIGURANDO FILA COM REDIS
 . docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
 . yarn add bee-queue
 . node src/queue.js -> Rodar a fila
+
+MONITORANDO FALHAS NA FILA
