@@ -115,3 +115,9 @@ LISTANDO HORÁRIOS DISPONÍVEIS
 
 CAMPOS VIRTUAIS NO AGENDAMENTO
 
+TRATAMENTO DE EXCEÇÕES
+. sentry.io -> Pode ser integrado com o Slack, Github para criar Issues
+. yarn add @sentry/node@5.4.3
+. yarn add express-async-errors
+. yarn add youch
+
