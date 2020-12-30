@@ -123,3 +123,6 @@ TRATAMENTO DE EXCEÇÕES
 
 VARIÁVEIS DE AMBIENTE
 . yarn add dotenv
+
+AJUSTES NA API
+. yarn add cors
